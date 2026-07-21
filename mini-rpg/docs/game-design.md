@@ -14,15 +14,15 @@ const personagem = {
     },
 
     defesa(){
-        console.log("defendeu") // logica de defesa baseada em status base de defesa sobre attk do inimigo
+        console.log("defendeu") // logica de defesa baseada em status base de defesa - atk inimigo.
     },
 
     inventario: [] // 
 }
 ```
 
-sistema de armas separada do persogamen. Funcionaria como uma especie de arsenal
-o playes teria a opção de escolher qual arma ele quer iniciar, cada arma teria seus
+sistema de armas separada do personagem. Funcionaria como uma especie de arsenal
+o players teria a opção de escolher qual arma ele quer iniciar, cada arma teria seus
 beneficios.
 
 ```bash
@@ -35,9 +35,9 @@ const armas = {
 }
 ```
 
-/*logica semelhante ao arsenal de armas. Cada raça vai ter suas propriedades
+logica semelhante ao arsenal de armas. Cada raça vai ter suas propriedades
 unicas, talvez mais pro futuras metodos de atks proprios tambem, tipo poderes
-de classes ou algo do tipo. */
+de classes ou algo do tipo.
 
 ```bash
 const racas = {
@@ -50,8 +50,8 @@ const racas = {
 }
 ```
 
-/*aqui seguirei o padrão dos outros objetos(futuras class), onde cada classe tera suas caracteristicas
-proprias. */
+aqui seguirei o padrão dos outros objetos(futuras class), onde cada classe tera suas caracteristicas
+proprias.
 
 ```bash
 const classes = {
@@ -66,17 +66,5 @@ implementar. Pensei em fazer um contador que auentaria +1 sempre que o jogador d
 caso ele não derrote o contador continuaria no mesmo lugar. Todo vez que o contator chegasse a 10 ele
 resetaria e o nivel do jogador subiria em +1. Para aumentar a dificuldade conforme os leveis, a parti 
 de um certo ponto por exemplo nivle: 10, para o jogar ganhar +1 no contador ele precisara matar X inimigos
-ao invez de 1. 
-XP atual = 0
+ao invez de 1.
 
-========================================================
-Cada inimigo derrotado:
-
-XP += 1
-
-Se XP >= XP necessário:
-
-Nível += 1
-
-XP = 0
-========================================================
