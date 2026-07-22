@@ -1,6 +1,6 @@
 ## 21/07/2026
 
-Objetivo:
+## Objetivo:
 
 Criar a estrutura inicial do projeto.
 
@@ -22,3 +22,18 @@ Criar a entidade Personagem.
 - preparativos do game-design inicial estabelecidos.
 - finalização da construção inicial da estrutura.
 - planejamento mental sobre o próximo passo: criação de personagem.
+
+## 22/07/2026
+
+## Decisão arquitetural
+
+Hoje alterei completamente a forma como pensei a entidade Personagem.
+
+Antes eu adicionava tudo que um personagem poderia possuir.
+
+Agora passei a separar:
+
+- O que o personagem É.
+- O que o personagem TEM.
+
+Essa mudança deixou a modelagem muito mais limpa e facilitará futuras expansões do projeto.
