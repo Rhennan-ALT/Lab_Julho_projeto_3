@@ -2,7 +2,7 @@
 
 ## Sprint 1
 
-- [ ] Criar personagem
+- [x] Criar personagem
 - [ ] Criar inimigo
 - [ ] Mostrar informações
 - [ ] Sistema de ataque
