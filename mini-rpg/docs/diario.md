@@ -37,3 +37,14 @@ Agora passei a separar:
 - O que o personagem TEM.
 
 Essa mudança deixou a modelagem muito mais limpa e facilitará futuras expansões do projeto.
+
+## 23/07/26
+
+## Decisão de Arquitetura
+
+Hoje foi decidido que:
+
+- O personagem não conhecerá diretamente as armas.
+- O personagem possuirá um inventário.
+- O inventário armazenará os itens.
+- Cada item será modelado separadamente para facilitar futuras expansões.
