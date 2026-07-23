@@ -3,17 +3,17 @@ export default arcos
 const arcos = [
     
     {
-    id: 1,
-    nome: "Arco Simples",
-    dano: 5,
-    range: 3,
-    durabilidade: 50,
+        id: 1,
+        nome: "Arco Simples",
+        dano: 5,
+        range: 3,
+        durabilidade: 50,
 
-    // futuros métodos proprios
+        // futuros métodos proprios
 
-    habilidade_arma(){},
-    dropar(){},
-    recarregar(){}
+        habilidade_arma(){},
+        dropar(){},
+        recarregar(){}
     },
 
     {
