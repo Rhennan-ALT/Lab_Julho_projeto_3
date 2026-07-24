@@ -1,5 +1,3 @@
-export default arcos
-
 const arcos = [
     
     {
@@ -31,3 +29,5 @@ const arcos = [
     }
 
 ]
+
+export default arcos 
