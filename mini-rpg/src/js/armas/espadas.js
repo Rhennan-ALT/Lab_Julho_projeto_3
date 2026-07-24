@@ -1,5 +1,3 @@
-export default espadas
-
 const espadas = [
     {
         id: 1,
@@ -14,7 +12,7 @@ const espadas = [
         dropar(){}
     },
 
-        {
+    {
         id: 2,
         nome: "Espada Longa",
         dano: 20,
@@ -27,3 +25,5 @@ const espadas = [
         dropar(){}
     }
 ]
+
+export default espadas
