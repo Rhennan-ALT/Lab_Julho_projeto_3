@@ -1,7 +1,7 @@
 const arcos = [
     
     {
-        id: 1,
+        id: 3,
         nome: "Arco Simples",
         dano: 5,
         range: 3,
@@ -15,7 +15,7 @@ const arcos = [
     },
 
     {
-        id: 2,
+        id: 4,
         nome: "Arcos Longo",
         dano: 10,
         range: 5,
